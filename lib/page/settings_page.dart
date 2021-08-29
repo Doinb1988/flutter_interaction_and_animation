@@ -41,8 +41,13 @@ class SettingsPageState extends State<SettingsPage> {
     }
   }
 
+  void _newPrivateMethod() {
+    print('i am learning git version control sys');
+  }
+
   @override
   Widget build(BuildContext context) {
+    _newPrivateMethod();
     return Scaffold(
       appBar: AppBar(
         title: Text(
