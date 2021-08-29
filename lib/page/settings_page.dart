@@ -48,6 +48,7 @@ class SettingsPageState extends State<SettingsPage> {
   @override
   Widget build(BuildContext context) {
     _newPrivateMethod();
+    // print('i want to make a conflict');
     return Scaffold(
       appBar: AppBar(
         title: Text(
